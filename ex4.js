@@ -3,6 +3,16 @@
 // Si tienen el mismo tamaño. debe devolver un 0.
 
 function arrayMayor(elementos1, elementos2) {
+    if (elementos1.length > elementos2.length) {
+        return 1
+    }
+    else if (elementos1.length == elementos2.length) {
+        return 0
+    }
+    else 
+    {
+        return 2
+    }
 
 }
 
